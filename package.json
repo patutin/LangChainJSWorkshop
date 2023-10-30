@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "0-it-works": "ts-node-esm src/0-it-works.ts"
+    "0-it-works": "ts-node-esm src/0-it-works.ts",
+    "1-chains": "ts-node-esm src/1-chains.ts"
   },
   "dependencies": {
+    "@huggingface/inference": "^1.8.0",
     "dotenv": "^16.3.0",
     "langchain": "~0.0.160",
     "openai": "^4.11.0",
