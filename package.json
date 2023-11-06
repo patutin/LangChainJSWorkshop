@@ -7,9 +7,11 @@
     "1-chains": "ts-node-esm src/1-chains.ts"
   },
   "dependencies": {
-    "@huggingface/inference": "^1.8.0",
+    "@google-ai/generativelanguage": "^0.2.1",
+    "@huggingface/inference": "^2.6.4",
     "dotenv": "^16.3.0",
-    "langchain": "~0.0.160",
+    "google-auth-library": "^8.9.0",
+    "langchain": "^0.0.180",
     "openai": "^4.11.0",
     "ts-node": "^10.9.0",
     "typescript": "^5.2.0"
