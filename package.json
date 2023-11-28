@@ -5,7 +5,8 @@
   "scripts": {
     "basics-openai": "ts-node-esm src/basics-openai.ts",
     "basics-hf": "ts-node-esm src/basics-hf.ts",
-    "chains": "ts-node-esm src/chains.ts"
+    "chains": "ts-node-esm src/chains.ts",
+    "tools": "ts-node-esm src/tools.ts"
   },
   "dependencies": {
     "@google-ai/generativelanguage": "^0.2.1",
