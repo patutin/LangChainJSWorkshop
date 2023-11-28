@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "0-it-works": "ts-node-esm src/0-it-works.ts",
-    "1-chains": "ts-node-esm src/1-chains.ts"
+    "basics-openai": "ts-node-esm src/basics-openai.ts",
+    "basics-hf": "ts-node-esm src/basics-hf.ts",
+    "chains": "ts-node-esm src/chains.ts"
   },
   "dependencies": {
     "@google-ai/generativelanguage": "^0.2.1",
