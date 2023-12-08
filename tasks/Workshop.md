@@ -1,6 +1,3 @@
-# LangChainJSWorkshop
-Learning Week LangChain JS Workshop
-
 # LangChain Workshop Overview
 
 ## Introduction to LangChain

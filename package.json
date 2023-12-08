@@ -1,0 +1,29 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "basics-openai": "ts-node-esm src/basics-openai.ts",
+    "basics-hf": "ts-node-esm src/basics-hf.ts",
+    "chains": "ts-node-esm src/chains.ts"
+  },
+  "dependencies": {
+    "@google-ai/generativelanguage": "^0.2.1",
+    "@huggingface/inference": "^2.6.4",
+    "dotenv": "^16.3.0",
+    "google-auth-library": "^8.9.0",
+    "langchain": "^0.0.180",
+    "openai": "^4.11.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.10.0"
+  },
+  "contributors": [
+    "Michael Mullins <Michael_Mullins@epam.com>",
+    "Roman Patutin <Roman_Patutin@epam.com>"
+  ],
+  "type": "module",
+  "license": "MIT"
+}
